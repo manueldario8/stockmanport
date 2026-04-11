@@ -1,0 +1,12 @@
+.dashboard {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}

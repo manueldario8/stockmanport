@@ -1,0 +1,44 @@
+.card-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    gap: 0.1rem;
+    border-radius: 25px; 
+    box-shadow: 0 0 5px rgb(31, 31, 31);
+
+}
+
+.card-logo i{
+    font-size: 80px;
+    text-shadow: 0 0 5px rgb(31, 31, 31);
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-record {
+    margin-top: 5px;
+}
+
+
+
+.id-1 {  
+    background-color: wheat;
+    border: 1px solid darkgoldenrod;
+}
+.id-2 {  
+    background-color: rgb(235, 52, 19);
+    border: 1px solid rgb(184, 37, 11);
+}
+.id-3 {  
+    background-color: rgb(35, 125, 228);
+    border: 1px solid rgb(2, 95, 172);
+}
+.id-4 {  
+    background-color: rgb(61, 231, 166);
+    border: 1px solid rgb(25, 190, 127);
+}

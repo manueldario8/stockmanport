@@ -1,0 +1,18 @@
+.subnav-user-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    height: 2rem;
+    max-width: 430px;
+    background-color: rgb(119, 119, 119);
+}
+
+.user-identicator {
+    display: flex;
+    gap: 1rem;
+    color: #dae3d9;
+}
+
+.user-role {
+    color: #dae3d9;
+}
