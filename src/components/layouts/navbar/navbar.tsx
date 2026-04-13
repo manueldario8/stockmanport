@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="logoapp">
           <img src={stockmanageralogo} alt="Stock Manager App Logo"/>
         </div>
-          <Link to="/" className="titleapp">Stock Manager</Link>
+          <Link to="/dashboard" className="titleapp">Stock Manager</Link>
       </div>
 
       <button  className="hamburger" onClick={() => setIsOpen(!isOpen)}>
@@ -23,8 +23,8 @@ const Navbar = () => {
           <Link to="/">Dashboard</Link>
           <Link to="/">Orders</Link>
           <Link to="/">Products</Link>
-          <Link to="/">Categories</Link>
-          <Link to="/">Providers</Link>
+          <Link to="/categories">Categories</Link>
+          <Link to="/providers">Providers</Link>
           <Link to="/">Settings</Link>
           <Link to="/">Account</Link>
           <Link to="/">Help</Link>
